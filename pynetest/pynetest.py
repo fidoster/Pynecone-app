@@ -38,7 +38,7 @@ class State(pc.State):
 def index():
     """The main view."""
     return pc.vstack(
-        pc.text("Joke a day..!!", font_size="3em", font_weight="bold", text_align="center", padding_bottom="1em"),
+        pc.text("JOKE A DAY..!!", font_size="3em", color="#EEFBFB", font_weight="bold", text_align="center", padding_bottom="1em"),
         pc.center(
             pc.vstack(
                 pc.heading(State.joke, font_size="2em", padding_bottom="2em"),
@@ -48,13 +48,16 @@ def index():
                     pc.button("Next", on_click=State.next_joke, color_scheme="green"),
                 ),
                 padding="1em",
-                bg="#ededed",
+                bg="#4DA8DA",
                 border_radius="1em",
                 box_shadow="lg",
                 width="50%",
             ),
         ),
         padding_y="5em",
+        width="100%",
+        height="100vh",
+        bg="#12232E",
     )
 
 
