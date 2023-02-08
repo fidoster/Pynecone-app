@@ -1,3 +1,5 @@
+![Pynecone](https://user-images.githubusercontent.com/99990278/217400604-e18199c1-4aab-4a46-a513-59a30061d213.JPG)
+
 Pynecone Joke of the Day App
 
 Welcome to the Pynecone Joke of the Day App! This app was created using Pynecone, a full-stack framework for building and deploying web apps.
